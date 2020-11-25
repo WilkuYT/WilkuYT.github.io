@@ -1,0 +1,74 @@
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(img\photo.jpg);
+}
+
+:root {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+p {
+    font-size: 0.8rem;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+.ops {
+    flex:1;
+}
+
+.articleone h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+}
+
+.articletwo h2 {
+    margin-bottom: 2%;
+}
+
+.articletwo p {
+    margin-bottom: 5%;
+}
+
+.ops p:nth-child(1) {
+    height: 50%;
+}
+
+.articletwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team a {
+    font-size: 200%;
+    margin: 0 2%;
+}
+
+.team .icon-facebook {
+    color: #1900ff;
+}
+
+.team .icon-instagram {
+    color: #ff714e;
+}
+
+.team .icon-twitter {
+    color: rgb(rgb(255, 201, 51), green, blue)
+}
+.team a i:hover{
+    color: gold;
+}
